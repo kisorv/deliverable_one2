@@ -1,0 +1,224 @@
+/*mobile first*/
+body {
+    background-color:  #F0ECEE;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ h2 {
+        font-weight: 600;
+}
+
+    p {
+        color: #88898B;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    background-color: #FF4850;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    }
+
+.find {
+    color: white;
+}
+
+.find:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}   
+
+nav{
+    width: 100%;
+    background-color: inherit;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.navigation1 {
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.navigation1 a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 10px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    font-weight: 400;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #88898B;
+}
+
+.navigation a:hover {
+    background: #FF4850;
+}
+
+.button {
+    width: 100%;
+    background-color: #FF4850;
+    border-radius: 15px;
+
+}   
+  
+.button:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}
+
+.button a{
+        color: white;
+}
+
+span{
+    color: #FF4850;
+}
+
+
+/*desktop formatting*/
+
+@media (min-width: 768px) {
+        
+    body {
+        background-image: url('../image/bulldog.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    div {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        font-weight: 600;
+    }
+
+    p {
+        color: #88898B;
+    }
+
+    .btn {
+        width: auto;
+        border: none;
+        border-radius: 10px;
+        background-color: #FF4850;
+        padding: 10px;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .find {
+        color: white;
+    }
+
+    .find:hover {
+        background-color: #CCC;
+        color: #FF4850;
+    }   
+    nav{
+        width: 100%;
+        background-color: inherit;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .navigation1 {
+        list-style: none;
+        margin: 0;
+        display: inline-block;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .navigation1 a {
+        text-decoration: none;
+        display: block;
+        padding: 1em;
+        color: black;
+    }
+
+    .navigation {
+        list-style: none;
+        margin: 0;
+        padding: 10px 15px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        font-weight: 400;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        display: block;
+        padding: 1em;
+        color: #88898B;
+    }
+
+    .navigation a:hover {
+        background: #FF4850;
+    }   
+
+    .button {
+        width: auto;
+        background-color: #FF4850;
+        border-radius: 15px;
+
+    }  
+    .button a{
+        color: white;
+    }
+
+    .button: hover {
+        background-color: #CCC;
+        color: #FF4850;
+    }
+
+    span{
+        color: #FF4850;
+    }      
+
+
+}
